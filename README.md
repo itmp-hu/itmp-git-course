@@ -6,7 +6,7 @@
 
 #### SSH kapcsolat a GitHub-hoz
 
-1.	Hozz létre ssh kulcspárt és alakíts ki kapcsolatot a GitHub-hoz SSH segítségével a [tutorial](kiegeszitok/ssh_tutoria.pdf) alapján.
+1.	Hozz létre ssh kulcspárt és alakíts ki kapcsolatot a GitHub-hoz SSH segítségével a [tutorial](kiegeszitok/ssh_tutorial.pdf) alapján.
 
 #### Petőfi
 
