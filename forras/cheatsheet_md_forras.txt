@@ -1,0 +1,8 @@
+# Gyors segítség markdown kód létrehozásához
+
+## Címsorok létrehozása
+
+1-es szintű (H1) címsor: `# Címsor 1`
+2-es szintű (H2) címsor: `## Címsor 2`
+3-as szintű (H3) címsor: `## Címsor 3`
+
