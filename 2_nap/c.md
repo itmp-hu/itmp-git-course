@@ -28,7 +28,7 @@ A forrás fájlokat a `forras_2_resz` mappában találod.
     </html>
     ```
 
-1. Készíts commit-ot *" Italok oldal létrehozva"* megjegyzéssel.
+1. Készíts commit-ot *" Levesek oldal létrehozva"* megjegyzéssel.
 
 1. Hozz létre a tartalomnak egy `main` elemet, majd illeszd be a [levesek.txt](forras_2_resz/levesek.txt) fájl tartalmát az oldalba, és tördeld a [minta](kiegeszitok/levesek_html_minta.png) alapján. ([Lustábbak számára előkészített forrás :)](forras_2_resz/levesek_html_forras.txt).)
 
