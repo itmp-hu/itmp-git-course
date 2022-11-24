@@ -2,7 +2,7 @@
 
 ## 2. nap
 
-### Feladatok - 1. rész
+### Feladatok - délelőtt, 1. rész
 
 #### SSH kapcsolat a GitHub-hoz
 
@@ -82,7 +82,7 @@
 
 1. Válassz egy másik költőt és készítsd el az oldalát.
 
-### Feladatok - 2. rész
+### Feladatok - délelőtt, 2. rész
 
 - [Feladat az "A" jelű csapattag részére](a.md)
 - [Feladat a "B" jelű csapattag részére](b.md)
