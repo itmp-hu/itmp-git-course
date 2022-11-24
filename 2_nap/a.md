@@ -65,6 +65,7 @@ A forrás fájlokat a `forras_2_resz` mappában találod.
     - [x] Főoldal létrehozása
     - [x] CSS hozzáadása
     ```
+1. Hozz létre egy commitot "todo lista hozzáadva" üzenettel.
 
 1. Próbáld meg a `git push` parancs kiadásával feltölteni a távoli repóba a helyi változásokat. 
 
