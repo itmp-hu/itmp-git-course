@@ -44,9 +44,11 @@ Hozz létre a tartalomnak egy `main` elemet, majd illeszd be a `forras/eloetelek
 
 1. Készíts commit-ot *"Előételek tartalommal feltöltve"* megjegyzéssel.
 
-1. Próbáld meg a `git push` parancs kiadásával feltölteni a távoli repóba a helyi változásokat. Ha nem megy, próbáld ki a `git push --set-upstream origin eloetelek` parancsot.
+1. Próbáld meg a `git push` parancs kiadásával feltölteni a távoli repóba a helyi változásokat. 
 
-    Mivel az `eloetelek` branch lokálisan lett létrehozva, ezért nem tudja, hogy a távoli repón belül ezt hova kell feltöltenie.
+    A sikertelen próbálkozásnak az az oka, hogy a `eloetelek` branch lokálisan lett létrehozva, a git így nem tujda a távoli repón belül ezt hova kell feltöltenie.
+
+    Próbáld ki a `git push --set-upstream origin eloetelek` parancsot.
 
 1. Nyisd meg a github oldalán a repót, majd keresd ki az `eloetelek` branchet, azon belül nyisd meg az `eloetelek.html` oldalt szerkesztésre az online felületen.
 
@@ -89,7 +91,7 @@ Hozz létre a tartalomnak egy `main` elemet, majd illeszd be a `forras/eloetelek
 
 1. A `TODO.md` fájlban jelezd, hogy kész az oldalad, majd `add`,`commit` és `push`.
 
-1. Nyisd meg a `main` branch-en az `italok.html` oldalt. A "Gyümölcsleves" kategóriában nem található meg a *"Eper"* leves. Bővítsd ki a listát!
+1. Nyisd meg a `main` branch-en az `italok.html` oldalt. A "Gyümölcsleves" kategóriában nem található meg az *"Eper"* leves. Bővítsd ki a listát!
 
 1. Készíts commitot *"gyömbér hozzáadva"* üzenettel, majd a `git push` parancs kiadásával töltsd fel a távoli repóba a helyi változásokat.
 
