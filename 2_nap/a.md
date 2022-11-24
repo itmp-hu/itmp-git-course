@@ -4,9 +4,11 @@
 
 A forrás fájlokat a `forras_2_resz` mappában találod.
 
-1. Gratulálok! Te nyerted el a repository (repó, tároló) létrehozását. Hozz létre egyet `fini-etterem` néven. A létrehozásánál állítsd be, hogy legyen privát és tartalmazzon egy `README.md` fájlt.
+1. Gratulálok! Te nyerted el a repository (repó, tároló) létrehozását a GitHub-on. Hozz létre egyet `fini-etterem` néven. A létrehozásánál állítsd be, hogy legyen privát és tartalmazzon egy `README.md` fájlt.
 
 1. Oszd meg a csapattársaiddal! A repo oldalán kattints a **Settings** (beállítások) gombra, majd a bal oldali menüben keresd meg a **Collaborators** (együttműködők) menüpontot. Itt kérheti a fiókod jelszavát. A megadása után az **Add people** (Személyek hozzáadása) gombra kattintva keress rá a csapatod tagjainak a nevére, vagy e-mail címére. A felajánlott nevek közül válaszd ki a megfelelő felhasználót. A tényleges hozzáadás az "Add XXXX to this repository" (XXXX hozzáadása ehhez a tárolóhoz) gombra kattinta történik meg.
+
+1. Klónozd le a repo-t a saját gépedre és a továbbiakban a helyi repóban dolgozz.
 
 1. Hozz létre egy oldalt `index.html` néven. A fájl egy HTML5 kódolású, oldal legyen `utf-8` karakterkódolással, továbbá állítsd be a nyelvet magyarra.
 
