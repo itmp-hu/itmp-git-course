@@ -87,7 +87,7 @@ A forrás fájlokat a `forras_2_resz` mappában találod.
     - [ ] Előételek oldal elkészítése
     - [ ] Levesek oldal elkészítése
     ```
-1. Add hozzá a TODO.md-t a stage-hez, majd készíts commitot a "todo lista kibővítve".
+1. Add hozzá a TODO.md-t a stage-hez, majd készíts commitot a "todo lista kibővítve" üzenettel.
 
 1. A `git pull` paranccsal frissítsd le a helyi repót, majd vizsgált meg a `git status` által mi is az aktuális állapota.
 
