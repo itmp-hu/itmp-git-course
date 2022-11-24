@@ -84,18 +84,16 @@ A forrás fájlokat a `forras_2_resz` mappában találod.
 1. Folytasd az oldal módosítását a VS Code-ban. Adj hozzá további feladatokat.
 
     ```
-    - [ ] Italok oldal elkészítése
     - [ ] Előételek oldal elkészítése
     - [ ] Levesek oldal elkészítése
     ```
+1. Add hozzá a TODO.md-t a stage-hez, majd készíts commitot a "todo lista kibővítve".
 
-1. A `git fetch` paranccsal frissítsd le a helyi repót, majd vizsgált meg a `git status` által mi is az aktuális állapota.
+1. A `git pull` paranccsal frissítsd le a helyi repót, majd vizsgált meg a `git status` által mi is az aktuális állapota.
 
-1. Mivel a távoli repóban volt egy olyan commit, ami ugyanazt a sort szerkesztette, így az auto merge nem tudja megoldani a problémát, conflict (kód ütközés) keletkezett, amit manuálisan kell feloldani.
+1. Mivel a távoli repóban volt egy olyan commit, ami ugyanazt a sort szerkesztette, így az auto merge nem tudja megoldani a problémát, conflict (kód ütközés) keletkezett, amit manuálisan kell feloldani. Add ki a `git diff` parancsot az ütközések megjelenítéséhez. 
 
-1. Add ki a git diff parancsot az ütközések megjelenítéséhez. 
-
-1. Lehetőségünk lenne a fájl manuális szerkesztésével és mentésével feloldani a konfliktust, de dönthetünk úgy is, hogy a "bejövő" (incoming) változatot fogadjuk el teljes egészében, vagy az "aktuális" (current) sajátunkat. Előbbihez a `git checkout --theirs TODO.md`, utóbbihoz a `git checkout --ours TODO.md` parancsot használhatjuk. Mivel most a saját változatunkban minden szükséges módosítás benne van, ezért add ki `git checkout --ours TODO.md` parancsot.
+1. Lehetőségünk van a fájl manuális szerkesztésével és mentésével feloldani a konfliktust, de dönthetünk úgy is, hogy a "bejövő" (incoming) változatot fogadjuk el teljes egészében, vagy az "aktuális" (current) sajátunkat. Előbbihez a `git checkout --theirs TODO.md`, utóbbihoz a `git checkout --ours TODO.md` parancsot használhatjuk. Mivel most a mind a két változatban van szükséges módosítás benne van, ezért szerkeszd és mentsd a fájlt manuálisan úgy, hogy mindkét helyről származó változást tartalmazza.
 
 1. Add hozzá a TODO.md-t a stage-hez, majd készíts commitot a "merge: todo a githubról".
 
