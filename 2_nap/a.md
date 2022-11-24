@@ -93,15 +93,17 @@ Próbáld ki a `git push --set-upstream origin todo` parancsot.
 
 1. Mivel a távoli repóban volt egy olyan commit, ami ugyanazt a sort szerkesztette, így az auto merge nem tudja megoldani a problémát, conflict (kód ütközés) keletkezett, amit manuálisan kell feloldani.
 
-1. Jelenleg a fájlokban az ütközést okozó sorok megtalálhatóak, a `git merge --abort` parancs futtatásával lehet visszaállni a helyi repót a korábbi, helyesen működő állapotára. Utána újra ki kell adni a `git pull` parancsot, ha szeretnénk feloldani az ütközést.
+1. Add ki a git diff parancsot az ütközések megjelenítéséhez. 
 
-1. Módosítsd úgy a fájlokat, hogy mind a két módosítást tartalmazza.
+1. Lehetőségünk lenne a fájl manuális szerkesztésével és mentésével feloldani a konfliktust, de dönthetünk úgy is, hogy a "bejövő" (incoming) változatot fogadjuk el teljes egészében, vagy az "aktuális" (current) sajátunkat. Előbbihez a `git checkout --theirs TODO.md`, utóbbihoz a `git checkout --ours TODO.md` parancsot használhatjuk. Mivel most a saját változatunkban minden szükséges módosítás benne van, ezért add ki `git checkout --ours TODO.md` parancsot.
 
-1. Az így elkészült `README.md` oldalt integráltd a `main` branch-be a `git merge` megfelelő alkalmazásával.
+1. Add hozzá a TODO.md-t a stage-hez, majd készíts commitot a "merge: todo a githubról".
+
+1. Az így elkészült `TODO.md` oldalt integráltd a `main` branch-be a `git merge` megfelelő alkalmazásával.
 
 1. A `git push` parancs kiadásával töltsd fel a távoli repóba a helyi változásokat. Amennyiben valaki közben push-olt, úgy neked a `git pull` paranccsal kell kezdened.
 
-1. Nyisd meg a `main` branch-en az `italok.html` oldalt. A "szénsavas" kategóriában nem található meg' a *"Narancs (cukormentes)"* ital. Bővítsd ki a listát!
+1. Nyisd meg a `main` branch-en az `italok.html` oldalt. (Amennyiben az italok.html még nem szerepelne a main branchben, akkor konzultálj a "B" csapattgoddal, hogy mikor fogja feltölteni a központi repoba a munkáját. Ha ez megtörtint `git pull`-lal tudod frissíteni a lokális repódat.) A "szénsavas" kategóriában nem található meg' a *"Narancs (cukormentes)"* ital. Bővítsd ki a listát!
 
 1. Készíts commitot *"cukormentes narancs hozzáadva"* üzenettel, majd a `git push` parancs kiadásával töltsd fel a távoli repóba a helyi változásokat.
 
