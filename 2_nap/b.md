@@ -89,7 +89,7 @@ A forrás fájlokat a `forras_2_resz` mappában találod.
 
 1. Nyisd meg a `main` branch-en a `levesek.html` oldalt. A "Krémlevesek" kategóriában nem található meg a *"Sajtkrémleves"* lehetőség. Bővítsd ki a listát!
 
-1. Készíts commitot *"gyömbér hozzáadva"* üzenettel, majd a `git push` parancs kiadásával töltsd fel a távoli repóba a helyi változásokat.
+1. Készíts commitot *"krémleves hozzáadva"* üzenettel, majd a `git push` parancs kiadásával töltsd fel a távoli repóba a helyi változásokat.
 
 1. A megrendelő új kinézetet szeretne az oldalnak. Cseréljd le a CSS fájlban az alábbi színkódokat, akár a keresés-csere funkciót alklamazva.
 
