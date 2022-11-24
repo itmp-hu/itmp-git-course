@@ -16,21 +16,23 @@
 
 3.	Nyisd meg a helyi gépen lévő repót.
 
-4.	Hozz létre egy `TODO.md` fájl, benne az alábbi tartalommal. (A megfelelő markdown kód előállításhoz használhatod [az előkészített forrást](forras/todo_md_forras.txt).)
-
-> - [x] A távoli repo klónozása.
-> - [ ] Petőfi oldalának létrehozása.
-> - [ ] A helyi repo felküldése a távoli repóba.
-> - [ ] A távoli repo klónozása külön mappába.
-> - [ ] A README.md fájlban link létrehozása a petofi.md fájlra.
+4.	Hozz létre egy `TODO.md` fájl, benne az alábbi tartalommal.
+```
+- [x] A távoli repo klónozása.
+- [ ] Petőfi oldalának létrehozása.
+- [ ] A helyi repo felküldése a távoli repóba.
+- [ ] A távoli repo klónozása külön mappába.
+- [ ] A README.md fájlban link létrehozása a petofi.md fájlra.
+```
 
 5.	Hozz létre egy mappát koltok néven, benne egy petofi.md fájlt.
 
-6.	A [minta](kiegeszitok/minta_petofi.pdf) alapján alakítsd ki a [petofi.txt](forras/petofi_md_forras.txt) felhasználásával a fájl tartalmát markdown formázások alkalmazásával. Ne felejtsd el a repóhoz adni a [képfájlt](forras/Petofi_haza_Kiskunfelegyhazan.jpg)! (Ha most nem szeretnél a markdown kóddal bajlódni, akkor használhatod [az előkészített forrást](forras/petofi_md_forras.txt))
+6.	A [minta](kiegeszitok/minta_petofi.pdf) alapján alakítsd ki a [petofi.txt](forras_1_resz/petofi_md_forras.txt) felhasználásával a fájl tartalmát markdown formázások alkalmazásával. Ne felejtsd el a repóhoz adni a [képfájlt](forras_1_resz/Petofi_haza_Kiskunfelegyhazan.jpg)! (Ha most nem szeretnél a markdown kóddal bajlódni, akkor használhatod [az előkészített forrást](forras_1_resz/petofi_md_forras.txt))
 
 7.	A `TODO.md` módosításával jelöld meg, hogy elvégezted a "Petőfi oldalának létrehozása" feladatot:
-
-> - [x] Petőfi oldalának létrehozása.
+```
+- [x] Petőfi oldalának létrehozása.
+```
 
 8.	Add hozzá a staging area-hoz az összes módosított fájlt.
 
@@ -40,15 +42,17 @@
 
 11.	Klónozd le a git clone parancs alkalmazásával repót, most a `koltok-2` mappába. A következő feladatokat ebben a mappában végezd egyéb utasításig.
 
-12.	A `README.md` fájlban hozz létre hivatkozást a petofi.md fájlra ([lustábbak számára előkészített forrás :)](forras/link_md_forras.txt))).
+12.	A `README.md` fájlban hozz létre hivatkozást a petofi.md fájlra ([lustábbak számára előkészített forrás :)](forras_1_resz/link_md_forras.txt))).
 
 13.	A `TODO.md` fájlban állíts mindent készre:
 
-> - [x] A távoli repo klónozása.
-> - [x] Petőfi oldalának létrehozása.
-> - [x] A helyi repo felküldése a távoli repóba.
-> - [x] A távoli repo klónozása külön mappába.
-> - [x] A `README.md` fájlban link létrehozása a `petofi.md` fájlra.
+```
+- [x] A távoli repo klónozása.
+- [x] Petőfi oldalának létrehozása.
+- [x] A helyi repo felküldése a távoli repóba.
+- [x] A távoli repo klónozása külön mappába.
+- [x] A `README.md` fájlban link létrehozása a `petofi.md` fájlra.
+```
 
 14.	Készíts commit-ot `kész` megjegyzéssel.
 
@@ -66,7 +70,7 @@
 
 2.	Hozz létre egy fájlt cheatsheet.md néven.
 
-3.	A fájlban hozz létre leírást, hogy hogyan lehet létrehozni címsor 1-es és címsor 2-es kiemeléseket. ([lustábbak számára előkészített forrás :)](forras/cheatsheet_md_forras.txt)))
+3.	A fájlban hozz létre leírást, hogy hogyan lehet létrehozni címsor 1-es és címsor 2-es kiemeléseket. ([lustábbak számára előkészített forrás :)](forras_1_resz/cheatsheet_md_forras.txt)))
 
 4.	Készíts commit-ot `Cheat Sheet` megjegyzéssel.
 
@@ -80,7 +84,7 @@
 
 ### Feladatok - 2. rész
 
-[Feladat az "A" jelű csapattag részére](a.md)
-[Feladat a "B" jelű csapattag részére](b.md)
-[Feladat a "C" jelű csapattag részére](c.md)
-[Feladat a "D" jelű csapattag részére](d.md)
+- [Feladat az "A" jelű csapattag részére](a.md)
+- [Feladat a "B" jelű csapattag részére](b.md)
+- [Feladat a "C" jelű csapattag részére](c.md)
+- [Feladat a "D" jelű csapattag részére](d.md)

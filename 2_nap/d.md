@@ -2,18 +2,20 @@
 
 **Figyelem!** A feladatok elvégzése során megeshet, hogy valaki kiadta a push parancsot, így a helyi repóban nem a legfrissebb a tartalom. A távoli repóban történt változások "letöltéséhez" a `git pull` parancsot kell kiadni. Érdemes odafigyelni, hogy előtte az elvégzett  módosítások legyenek commitolva.
 
-1. Az egyik csapattársad éppen most hozza létre a feladathoz tartozó repository-t (repót, tárolót). Segítsd a munkáját és add meg neki a felhasználóneved a githubon.
+A forrás fájlokat a `forras_2_resz` mappában találod.
+
+1. Az egyik csapattársad éppen most hozta létre a feladathoz tartozó repository-t (repót, tárolót). Segítsd a munkáját és add meg neki a felhasználóneved a githubon.
 
 1. Fogadd el a meghívást, majd klónozd le a repo-t.
 
 1. A te feladatod a **Előételek oldal** elkészítése lesz. Hozz létre ehhez egy új branchet `eloetelek` néven.
 
-1. Hozz létre egy oldalt `eloetelek.html` néven. A fájl egy HTML5 kódolású, oldal legyen `utf-8` karakterkódolással, továbbá állítsd be a nyelvet magyarra.
+1. Hozz létre egy oldalt `eloetelek.html` néven. A fájl egy HTML5 kódolású, oldal legyen `utf-8` karakterkódolással, továbbá állítsd be a nyelvet magyarra. Az oldal címe legyen *"Előételek"*, ahogy a böngészőfülön is ugyanez jelenjen meg!
 
 
     ```html
     <!DOCTYPE html>
-    <html lang="en">
+    <html lang="hu">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -27,11 +29,12 @@
     </html>
     ```
 
-1. Az oldal címe legyen *"Előételek"*, és a böngészőfülön is ugyanez jelenjen meg!
-
 1. Készíts commit-ot *" Előételek oldal létrehozva"* megjegyzéssel.
 
-1. Hozz létre a tartalomnak egy `main` elemet, majd illeszd be a `forras/eloetelek.txt` fájl tartalmát az oldalba, és tördeld a minta alapján. Az oldal címe legyen *"Előételek"*, és a böngészőfülön is ugyanez jelenjen meg!
+1. Hozz létre a tartalomnak egy `main` elemet, majd illeszd be az [eloetelek.txt](forras_2_resz/eloetelek.txt) fájl tartalmát az oldalba, és tördeld a [minta](kiegeszitok/eloetelek_html_minta.png) alapján. ([Lustábbak számára előkészített forrás :)](forras_2_resz/eloetelek_html_forras.txt).)
+
+
+Hozz létre a tartalomnak egy `main` elemet, majd illeszd be a `forras/eloetelek.txt` fájl tartalmát az oldalba, és tördeld a minta alapján. Az oldal címe legyen *"Előételek"*, és a böngészőfülön is ugyanez jelenjen meg!
 
 1. A címsor alá szúrd be az oldalhoz tartozó képet. A kép kapja meg a `kiemelt-kep` osztályt.
 

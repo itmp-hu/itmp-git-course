@@ -2,14 +2,15 @@
 
 **Figyelem!** A feladatok elvégzése során megeshet, hogy valaki kiadta a push parancsot, így a helyi repóban nem a legfrissebb a tartalom. A távoli repóban történt változások "letöltéséhez" a `git pull` parancsot kell kiadni. Érdemes odafigyelni, hogy előtte az elvégzett  módosítások legyenek commitolva.
 
-1. Az egyik csapattársad éppen most hozza létre a feladathoz tartozó repository-t (repót, tárolót). Segítsd a munkáját és add meg neki a felhasználóneved a githubon.
+A forrás fájlokat a `forras_2_resz` mappában találod.
 
-1. Fogadd el a meghívást, majd klónozd le a repo-t.
+1. Az egyik csapattársad éppen most hozta létre a feladathoz tartozó repository-t (repót, tárolót). Segítsd a munkáját és add meg neki a felhasználóneved a githubon.
+
+1. Ha megkaptad a meghívót, fogadd el a meghívást, majd klónozd le a repo-t.
 
 1. A te feladatod a **Levesek oldal** elkészítése lesz. Hozz létre ehhez egy új branchet `levesek` néven.
 
-1. Hozz létre egy oldalt `levesek.html` néven. A fájl egy HTML5 kódolású, oldal legyen `utf-8` karakterkódolással, továbbá állítsd be a nyelvet magyarra.
-
+1. Hozz létre egy oldalt `levesek.html` néven. A fájl egy HTML5 kódolású, oldal legyen `utf-8` karakterkódolással, továbbá állítsd be a nyelvet magyarra.  Az oldal címe legyen *"Levesek"*, ahogy a böngészőfülön is ugyanez jelenjen meg!
 
     ```html
     <!DOCTYPE html>
@@ -27,11 +28,9 @@
     </html>
     ```
 
-1. Az oldal címe legyen *"Levesek"*, ahogy a böngészőfülön is ugyanez jelenjen meg!
-
 1. Készíts commit-ot *" Italok oldal létrehozva"* megjegyzéssel.
 
-1. Hozz létre a tartalomnak egy `main` elemet, majd illeszd be a `forras/levesek.txt` fájl tartalmát az oldalba, és tördelje a minta alapján. Az oldal címe legyen *"Levesek"*, ahogy a böngészőfülön is ugyanez jelenjen meg!
+1. Hozz létre a tartalomnak egy `main` elemet, majd illeszd be a [levesek.txt](forras_2_resz/levesek.txt) fájl tartalmát az oldalba, és tördeld a [minta](kiegeszitok/levesek_html_minta.png) alapján. ([Lustábbak számára előkészített forrás :)](forras_2_resz/levesek_html_forras.txt).)
 
 1. A címsor alá szúrd be az oldalhoz tartozó képet. A kép kapja meg a `kiemelt-kep` osztályt.
 
@@ -41,9 +40,11 @@
 
 1. Készíts commit-ot *"Italok tartalommal feltöltve"* megjegyzéssel.
 
-1. Próbáld meg a `git push` parancs kiadásával feltölteni a távoli repóba a helyi változásokat. Ha nem megy próbáld ki a `git push --set-upstream origin levesek` parancsot.
+1. Próbáld meg a `git push` parancs kiadásával feltölteni a távoli repóba a helyi változásokat. 
 
-    Mivel a `levesek` branch lokálisan lett létrehozva nem tujda a távoli repón belül ezt hova kell feltöltenie.
+    A sikertelen próbálkozásnak az az oka, hogy a `levesek` branch lokálisan lett létrehozva, a git így nem tujda a távoli repón belül ezt hova kell feltöltenie.
+
+    Próbáld ki a `git push --set-upstream origin levesek` parancsot.
 
 1. Nyissa meg a github oldalán a repót, majd keresse ki a `levesek` branchet, azon belül nyissa meg a `levesek.html` oldalt szerkesztésre az online felületen.
 
@@ -55,11 +56,11 @@
 
 1. A `git fetch` paranccsal frissítsd le a helyi repót, majd vizsgált meg a `git status` által mi is az aktuális állapota.
 
-1. Mivel a távoli repóban volt egy olyan commit, ami ugyanazt a sort szerkesztette, így nem tudja az auto merge nem tudja megoldani a problémát, conflict (kód ütközés) keletkezett, amit manuálisan kell feloldani.
+1. Mivel a távoli repóban volt egy olyan commit, ami ugyanazt a sort szerkesztette, így az auto merge nem tudja megoldani a problémát, conflict (kód ütközés) keletkezett, amit manuálisan kell feloldani.
 
-1. Jelenleg a fájlokban az ütközést okozó sorok megtalálhatóak, a `git merge --abort` parancs futtatásával lehet visszaállni a helyi repót a korábbi, helyesen működő állapotára. Utána újra ki kell azni a `git pull` parancsot ha szeretnénk feloldani az ütközést.
+1. Jelenleg a fájlokban az ütközést okozó sorok megtalálhatóak, a `git merge --abort` parancs futtatásával lehet visszaállni a helyi repót a korábbi, helyesen működő állapotára. Utána újra ki kell adni a `git pull` parancsot, ha szeretnénk feloldani az ütközést.
 
-1. Módosítsa úgy a fájlokat, hogy mind a két módosítást tartalmazza.
+1. Módosítsd úgy a fájlokat, hogy mind a két módosítást tartalmazza.
 
 1. Add hozzá a staging area-hoz az elvégzett módosításokat, majd a `git push` parancs kiadásával töltsd fel a távoli repóba a helyi változásokat.
 

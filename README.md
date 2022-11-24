@@ -7,5 +7,5 @@
 
 ## 2. nap
 
-[Az második nap feladatai](2_nap/2_nap_feladatok.md)
+[A második nap feladatai](2_nap/2_nap_feladatok.md)
 
