@@ -27,11 +27,11 @@
     </html>
     ```
 
-1. Az oldal címe legyen *"Előételek"*, ahogy a böngészőfülön is ugyanez jelenjen meg!
+1. Az oldal címe legyen *"Előételek"*, és a böngészőfülön is ugyanez jelenjen meg!
 
 1. Készíts commit-ot *" Előételek oldal létrehozva"* megjegyzéssel.
 
-1. Hozz létre a tartalomnak egy `main` elemet, majd illeszd be a `forras/eloetelek.txt` fájl tartalmát az oldalba, és tördelje a minta alapján. Az oldal címe legyen *"Előételek"*, ahogy a böngészőfülön is ugyanez jelenjen meg!
+1. Hozz létre a tartalomnak egy `main` elemet, majd illeszd be a `forras/eloetelek.txt` fájl tartalmát az oldalba, és tördeld a minta alapján. Az oldal címe legyen *"Előételek"*, és a böngészőfülön is ugyanez jelenjen meg!
 
 1. A címsor alá szúrd be az oldalhoz tartozó képet. A kép kapja meg a `kiemelt-kep` osztályt.
 
@@ -41,29 +41,29 @@
 
 1. Készíts commit-ot *"Előételek tartalommal feltöltve"* megjegyzéssel.
 
-1. Próbáld meg a `git push` parancs kiadásával feltölteni a távoli repóba a helyi változásokat. Ha nem megy próbáld ki a `git push --set-upstream origin eloetelek` parancsot.
+1. Próbáld meg a `git push` parancs kiadásával feltölteni a távoli repóba a helyi változásokat. Ha nem megy, próbáld ki a `git push --set-upstream origin eloetelek` parancsot.
 
-    Mivel az `eloetelek` branch lokálisan lett létrehozva nem tujda a távoli repón belül ezt hova kell feltöltenie.
+    Mivel az `eloetelek` branch lokálisan lett létrehozva, ezért nem tudja, hogy a távoli repón belül ezt hova kell feltöltenie.
 
-1. Nyissa meg a github oldalán a repót, majd keresse ki az `eloetelek` branchet, azon belül nyissa meg az `eloetelek.html` oldalt szerkesztésre az online felületen.
+1. Nyisd meg a github oldalán a repót, majd keresd ki az `eloetelek` branchet, azon belül nyisd meg az `eloetelek.html` oldalt szerkesztésre az online felületen.
 
-1. A *"Rántott sajtok"* felsoroláshoz add hozzá az *"Rántott Trappista sajt rizzsel"*  ételt.
+1. A *"Rántott sajtok"* felsoroláshoz add hozzá a *"Rántott Trappista sajt rizzsel"*  ételt.
 
-1. Hozzon létre egy commitot *"Rántott Trappista hozzáadva"* üzenettel és "A Rántott sajtok felsorolás bővítve egy ántott Trappista sajt rizzsel" részletes leírással.
+1. Hozz létre egy commitot *"Rántott Trappista hozzáadva"* üzenettel és "A Rántott sajtok felsorolás bővítve, egy rántott Trappista sajt rizzsel" részletes leírással.
 
 1. Folytasd az oldal módosítását a VS Code-ban. Szintén a *Rántott sajtok* felsorolásához add hozzá az *"Rántott Trappista sajt hasábburgonyával"* opciót.
 
-1. A `git fetch` paranccsal frissítsd le a helyi repót, majd vizsgált meg a `git status` által mi is az aktuális állapota.
+1. A `git fetch` paranccsal frissítsd le a helyi repót, majd vizsgáld meg a `git status` által, hogy mi is az aktuális állapota.
 
-1. Mivel a távoli repóban volt egy olyan commit, ami ugyanazt a sort szerkesztette, így nem tudja az auto merge nem tudja megoldani a problémát, conflict (kód ütközés) keletkezett, amit manuálisan kell feloldani.
+1. Mivel a távoli repóban volt egy olyan commit, ami ugyanazt a sort szerkesztette, ezért az auto merge nem tudja megoldani a problémát -> conflict (kód ütközés) keletkezett, amit manuálisan kell feloldani.
 
-1. Jelenleg a fájlokban az ütközést okozó sorok megtalálhatóak, a `git merge --abort` parancs futtatásával lehet visszaállni a helyi repót a korábbi, helyesen működő állapotára. Utána újra ki kell azni a `git pull` parancsot ha szeretnénk feloldani az ütközést.
+1. Jelenleg a fájlokban az ütközést okozó sorok megtalálhatóak, a `git merge --abort` parancs futtatásával lehet visszaállítani a helyi repót a korábbi, helyesen működő állapotára. Utána újra ki kell adni a `git pull` parancsot, amennyiben fel szeretnénk oldani az ütközést.
 
-1. Módosítsa úgy a fájlokat, hogy mind a két módosítást tartalmazza.
+1. Módosítsd úgy a fájlokat, hogy mind a két módosítást tartalmazza!
 
 1. Add hozzá a staging area-hoz az elvégzett módosításokat, majd a `git push` parancs kiadásával töltsd fel a távoli repóba a helyi változásokat.
 
-1. Az így elkészült `eloetelek.html` oldalt integráltd a `main` branch-be a `git merge` megfelelő alkalmazásával.
+1. Az így elkészült `eloetelek.html` oldalt integráld a `main` branch-be a `git merge` megfelelő alkalmazásával.
 
 1. A `git push` parancs kiadásával töltsd fel a távoli repóba a helyi változásokat. Amennyiben valaki közben push-olt, úgy neked a `git pull` paranccsal kell kezdened.
 
@@ -71,7 +71,7 @@
 
 1. Készíts commitot *"eloetelek menüpont létrehozva"* üzenettel, majd a `git push` parancs kiadásával töltsd fel a távoli repóba a helyi változásokat.
 
-1. Hozz létre a "Rántott finomságok" részt a főoldal tartalmi részének a végén. Szúrd be a `rantott-finomsagok.jpg` képet. A kép kapja meg a `kiemelt` class-t, végül a leírás helyén egy lorem ipsum szöveget tartalmazó bekezdés helyezzen el.
+1. Hozd létre a "Rántott finomságok" részt a főoldal tartalmi részének a végén. Szúrd be a `rantott-finomsagok.jpg` képet. A kép kapja meg a `kiemelt` class-t, végül a leírás helyén egy lorem ipsum szöveget tartalmazó bekezdést helyezz el.
 
     ```html
     <h2>Nap levese</h2>
@@ -90,7 +90,7 @@
 
 1. Készíts commitot *"gyömbér hozzáadva"* üzenettel, majd a `git push` parancs kiadásával töltsd fel a távoli repóba a helyi változásokat.
 
-1. A megrendelő új kinézetet szeretne az oldalnak. Cserélje le a CSS fájlban az alábbi színkódokat, akár a keresés-csere funkciót alklamazva.
+1. A megrendelő új kinézetet szeretne az oldalnak. Cseréld le a CSS fájlban az alábbi színkódokat, akár a keresés-csere funkciót alkalmazva.
 
     |   Régi    |    Új     |
     |-----------|-----------|
