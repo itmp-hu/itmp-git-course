@@ -69,9 +69,9 @@ A forrás fájlokat a `forras_2_resz` mappában találod.
 
 1. Próbáld meg a `git push` parancs kiadásával feltölteni a távoli repóba a helyi változásokat. 
 
-A sikertelen próbálkozásnak az az oka, hogy a `todo` branch lokálisan lett létrehozva, a git így nem tujda a távoli repón belül ezt hova kell feltöltenie.
+    A sikertelen próbálkozásnak az az oka, hogy a `todo` branch lokálisan lett létrehozva, a git így nem tujda a távoli repón belül ezt hova kell feltöltenie.
 
-Próbáld ki a `git push --set-upstream origin todo` parancsot.
+    Próbáld ki a `git push --set-upstream origin todo` parancsot.
 
 1. Nyisd meg a github oldalán a repót, majd keresd ki a `todo` branchet, azon belül nyisd meg a `TODO.md` fájlt szerkesztésre az online felületen. Bővítsd ki a feladatlistát az italok oldal elkészítésének feladatával.
 
