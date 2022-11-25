@@ -69,7 +69,7 @@ A forrás fájlokat a `forras_2_resz` mappában találod.
 
 1. Próbáld meg a `git push` parancs kiadásával feltölteni a távoli repóba a helyi változásokat. 
 
-    A sikertelen próbálkozásnak az az oka, hogy a `todo` branch lokálisan lett létrehozva, a git így nem tujda a távoli repón belül ezt hova kell feltöltenie.
+    A sikertelen próbálkozásnak az az oka, hogy a `todo` branch lokálisan lett létrehozva, így a git nem tudja, hogy a távoli repón belül ezt hova kell feltöltenie.
 
     Próbáld ki a `git push --set-upstream origin todo` parancsot.
 
@@ -93,7 +93,7 @@ A forrás fájlokat a `forras_2_resz` mappában találod.
 
 1. Mivel a távoli repóban volt egy olyan commit, ami ugyanazt a sort szerkesztette, így az auto merge nem tudja megoldani a problémát, conflict (kód ütközés) keletkezett, amit manuálisan kell feloldani. Add ki a `git diff` parancsot a különbségek megjelenítéséhez. 
 
-1. Lehetőségünk van a fájl manuális szerkesztésével és mentésével feloldani a konfliktust, de dönthetünk úgy is, hogy a "bejövő" (incoming) változatot fogadjuk el teljes egészében, vagy az "aktuális" (current) sajátunkat. Előbbihez a `git checkout --theirs TODO.md`, utóbbihoz a `git checkout --ours TODO.md` parancsot használhatjuk. Mivel most a mind a két változatban van szükséges módosítás benne van, ezért szerkeszd és mentsd a fájlt manuálisan úgy, hogy mindkét helyről származó változást tartalmazza.
+1. Lehetőségünk van a fájl manuális szerkesztésével és mentésével feloldani a konfliktust, de dönthetünk úgy is, hogy a "bejövő" (incoming) változatot fogadjuk el teljes egészében, vagy az "aktuális" (current) sajátunkat. Előbbihez a `git checkout --theirs TODO.md`, utóbbihoz a `git checkout --ours TODO.md` parancsot használhatjuk. Mivel most a mind a két változatban a szükséges módosítás benne van, ezért szerkeszd és mentsd a fájlt manuálisan úgy, hogy mindkét helyről származó változást tartalmazza.
 
 1. Add hozzá a TODO.md-t a stage-hez, majd készíts commitot a "merge: todo a githubról".
 
