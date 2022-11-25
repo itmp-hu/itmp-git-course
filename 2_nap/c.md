@@ -38,7 +38,7 @@ A forrás fájlokat a `forras_2_resz` mappában találod.
     <img src="./img/levesek.jpg" alt="" class="kiemelt-kep">
     ```
 
-1. Készíts commit-ot *"Italok tartalommal feltöltve"* megjegyzéssel.
+1. Készíts commit-ot *"Levesek tartalommal feltöltve"* megjegyzéssel.
 
 1. Próbáld meg a `git push` parancs kiadásával feltölteni a távoli repóba a helyi változásokat. 
 
@@ -70,7 +70,7 @@ A forrás fájlokat a `forras_2_resz` mappában találod.
 
 1. Készíts commitot *"levesek menüpont létrehozva"* üzenettel, majd a `git push` parancs kiadásával töltsd fel a távoli repóba a helyi változásokat.
 
-1. Hozz létre a "Nap itala" részt a főoldal tartalmi részének a végén. Szúrd be a `nap-levese.jpg` képet. A kép kapja meg a `kiemelt` class-t, végül a leírás helyén egy lorem ipsum szöveget tartalmazó bekezdés helyezzen el.
+1. Hozd létre a "Nap levese" részt a főoldal tartalmi részének a végén. Szúrd be a `nap-levese.jpg` képet. A kép kapja meg a `kiemelt` class-t, végül a leírás helyén egy lorem ipsum szöveget tartalmazó bekezdés helyezzen el.
 
     ```html
     <h2>Nap levese</h2>
