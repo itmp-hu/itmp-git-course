@@ -91,9 +91,9 @@ Hozz létre a tartalomnak egy `main` elemet, majd illeszd be a `forras/eloetelek
 
 1. A `TODO.md` fájlban jelezd, hogy kész az oldalad, majd `add`,`commit` és `push`.
 
-1. Nyisd meg a `main` branch-en az `italok.html` oldalt. A "Gyümölcsleves" kategóriában nem található meg az *"Eper"* leves. Bővítsd ki a listát!
+1. Nyisd meg a `main` branch-en az `italok.html` oldalt. (Amennyiben az a fájl még nem szerepelne a main branchben, akkor konzultálj a "B" csapattagoddal, hogy mikor fogja feltölteni a központi repoba a munkáját. Ha ez megtörtént `git pull`-lal tudod frissíteni a lokális repódat.) A "szénsavas" kategóriában nem található meg' a *"Narancs (cukormentes)"* ital. Bővítsd ki a listát!
 
-1. Készíts commitot *"gyömbér hozzáadva"* üzenettel, majd a `git push` parancs kiadásával töltsd fel a távoli repóba a helyi változásokat.
+1. Készíts commitot *"cukormentes narancs hozzáadva"* üzenettel, majd a `git push` parancs kiadásával töltsd fel a távoli repóba a helyi változásokat.
 
 1. A megrendelő új kinézetet szeretne az oldalnak. Cseréld le a CSS fájlban az alábbi színkódokat, akár a keresés-csere funkciót alkalmazva.
 

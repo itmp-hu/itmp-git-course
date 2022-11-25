@@ -101,10 +101,6 @@ A forrás fájlokat a `forras_2_resz` mappában találod.
 
 1. A `git push` parancs kiadásával töltsd fel a távoli repóba a helyi változásokat. Amennyiben valaki közben push-olt, úgy neked a `git pull` paranccsal kell kezdened.
 
-1. Nyisd meg a `main` branch-en az `italok.html` oldalt. (Amennyiben az italok.html még nem szerepelne a main branchben, akkor konzultálj a "B" csapattgoddal, hogy mikor fogja feltölteni a központi repoba a munkáját. Ha ez megtörtént `git pull`-lal tudod frissíteni a lokális repódat.) A "szénsavas" kategóriában nem található meg' a *"Narancs (cukormentes)"* ital. Bővítsd ki a listát!
-
-1. Készíts commitot *"cukormentes narancs hozzáadva"* üzenettel, majd a `git push` parancs kiadásával töltsd fel a távoli repóba a helyi változásokat.
-
 1. Remélhetőleg a töbieknek már sikerült a többi menüpontot is hozzáadni a navigációs sávhoz.
 Hozz létre egy új branchet `menu` néven. Másold át a főoldalról a menü teljes tartalmát úgy ahogy van az összes oldalra.
 

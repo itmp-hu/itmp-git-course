@@ -54,15 +54,13 @@ A forrás fájlokat a `forras_2_resz` mappában találod.
 
 1. Folytasd az oldal módosítását a VS Code-ban. Szintén a *"Kiemelt leveseink"* felsorolásához add hozzá az *"Jókai bableves"* opciót.
 
-1. A `git fetch` paranccsal frissítsd le a helyi repót, majd vizsgált meg a `git status` által mi is az aktuális állapota.
+1. A `git pull` paranccsal frissítsd le a helyi repót. 
 
-1. Mivel a távoli repóban volt egy olyan commit, ami ugyanazt a sort szerkesztette, így az auto merge nem tudja megoldani a problémát, conflict (kód ütközés) keletkezett, amit manuálisan kell feloldani.
+1. Mivel a távoli repóban volt egy olyan commit, ami ugyanazt a sort szerkesztette, így az auto merge nem tudja megoldani a problémát, conflict (kód ütközés) keletkezett, amit manuálisan kell feloldani. Add ki a `git diff` parancsot a különbségek megjelenítéséhez. 
 
-1. Jelenleg a fájlokban az ütközést okozó sorok megtalálhatóak, a `git merge --abort` parancs futtatásával lehet visszaállni a helyi repót a korábbi, helyesen működő állapotára. Utána újra ki kell adni a `git pull` parancsot, ha szeretnénk feloldani az ütközést.
+1. Lehetőségünk van a fájl manuális szerkesztésével és mentésével feloldani a konfliktust, de dönthetünk úgy is, hogy a "bejövő" (incoming) változatot fogadjuk el teljes egészében, vagy az "aktuális" (current) sajátunkat. Előbbihez a `git checkout --theirs levesek.html`, utóbbihoz a `git checkout --ours levesek.html` parancsot használhatjuk. Mivel most a mind a két változatban van szükséges módosítás benne van, ezért szerkeszd és mentsd a fájlt manuálisan úgy, hogy mindkét helyről származó változást tartalmazza.
 
-1. Módosítsd úgy a fájlokat, hogy mind a két módosítást tartalmazza.
-
-1. Add hozzá a staging area-hoz az elvégzett módosításokat, majd a `git push` parancs kiadásával töltsd fel a távoli repóba a helyi változásokat.
+1. Add hozzá a staging area-hoz az elvégzett módosításokat, commitold el a "merge: levesek a githubról" üzenettel,  majd a `git push` parancs kiadásával töltsd fel a távoli repóba a helyi változásokat.
 
 1. Az így elkészült `levesek.html` oldalt integráltd a `main` branch-be a `git merge` megfelelő alkalmazásával.
 
@@ -87,9 +85,9 @@ A forrás fájlokat a `forras_2_resz` mappában találod.
 
 1. A `TODO.md` fájlban jelezd, hogy kész az oldalad, majd `add`,`commit` és `push`.
 
-1. Nyisd meg a `main` branch-en az `italok.html` oldalt. A "Szénsavas" kategóriában nem található meg a *"Gyömbér"* ital. Bővítsd ki a listát!
+1. Nyisd meg a `main` branch-en az `eloetelek.html` oldalt. (Amennyiben a fájl még nem szerepelne a main branchben, akkor konzultálj a "D" csapattagoddal, hogy mikor fogja feltölteni a központi repoba a munkáját. Ha ez megtörtént, a `git pull`-lal tudod frissíteni a lokális repódat.) A "Rántott sajtok" kategóriában nem található meg a *"Rántott Trappista sajt rizzsel"* előétel. Bővítsd ki a listát!
 
-1. Készíts commitot *"gyömbér hozzáadva"* üzenettel, majd a `git push` parancs kiadásával töltsd fel a távoli repóba a helyi változásokat.
+1. Készíts commitot *"Rántott Trappista sajt rizzsel hozzáadva"* üzenettel, majd a `git push` parancs kiadásával töltsd fel a távoli repóba a helyi változásokat.
 
 1. A megrendelő új kinézetet szeretne az oldalnak. Cserélje le a CSS fájlban az alábbi színkódokat, akár a keresés-csere funkciót alklamazva.
 
