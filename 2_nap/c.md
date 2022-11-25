@@ -1,4 +1,4 @@
-# Feladat az "C" jelű csapattag részére
+# Feladat a "C" jelű csapattag részére
 
 **Figyelem!** A feladatok elvégzése során megeshet, hogy valaki kiadta a push parancsot, így a helyi repóban nem a legfrissebb a tartalom. A távoli repóban történt változások "letöltéséhez" a `git pull` parancsot kell kiadni. Érdemes odafigyelni, hogy előtte az elvégzett  módosítások legyenek commitolva.
 
