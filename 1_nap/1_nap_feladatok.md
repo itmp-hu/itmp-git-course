@@ -9,4 +9,4 @@
 
 ### Feladatok - 2. rész
     
-- [Az 1. nap 1. részének feladatai](2_resz/versek-02.pdf)
+- [Az 1. nap 2. részének feladatai](2_resz/versek-02.pdf)
