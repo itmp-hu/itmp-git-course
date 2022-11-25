@@ -5,7 +5,7 @@
 ### Feladatok - 1. rész
     
 - [Az 1. nap 1. részének feladatai](1_resz/versek-01.pdf)
-- [A feladatcsomag letöltése egyben (zip)](1_resz/versek-01.zip)
+- [A feladatcsomag letöltése egyben (zip)](1_resz/versek_01.zip)
 
 ### Feladatok - 2. rész
     
