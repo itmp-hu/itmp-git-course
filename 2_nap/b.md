@@ -10,7 +10,7 @@ A forrás fájlokat a `forras_2_resz` mappában találod.
 
 1. A te feladatod az **Italok oldal** elkészítése lesz. Hozz létre ehhez egy új branchet `italok` néven.
 
-1. Hozz létre egy oldalt `italok.html` néven. A fájl egy HTML5 kódolású, oldal legyen `utf-8` karakterkódolással, továbbá állítsd be a nyelvet magyarra. Az oldal címe legyen *"Italok"*, ahogy a böngészőfülön is ugyanez jelenjen meg!
+1. Hozz létre egy oldalt `italok.html` néven. A fájl egy HTML5 kódolású oldal legyen `utf-8` karakterkódolással, továbbá állítsd be a nyelvet magyarra. Az oldal címe legyen *"Italok"*, ahogy a böngészőfülön is ugyanez jelenjen meg!
 
     ```html
     <!DOCTYPE html>
@@ -42,7 +42,7 @@ A forrás fájlokat a `forras_2_resz` mappában találod.
 
 1. Próbáld meg a `git push` parancs kiadásával feltölteni a távoli repóba a helyi változásokat. 
 
-    A sikertelen próbálkozásnak az az oka, hogy a `italok` branch lokálisan lett létrehozva, a git így nem tujda a távoli repón belül ezt hova kell feltöltenie.
+    A sikertelen próbálkozásnak az az oka, hogy a `italok` branch lokálisan lett létrehozva, így a git nem tujda, hogy a távoli repón belül ezt hova kell feltöltenie.
 
     Próbáld ki a `git push --set-upstream origin italok` parancsot.
 
@@ -70,7 +70,7 @@ A forrás fájlokat a `forras_2_resz` mappában találod.
 
 1. Készíts commitot *"italok menüpont létrehozva"* üzenettel, majd a `git push` parancs kiadásával töltsd fel a távoli repóba a helyi változásokat.
 
-1. Hozz létre a "Nap itala" részt a főoldalon. Szúrd be a `nap-itala` képet. A kép kapja meg a `kiemelt` class-t, végül a leírás helyén egy lorem ipsum szöveget tartalmazó bekezdést helyezz el.
+1. Hozd létre a "Nap itala" részt a főoldalon. Szúrd be a `nap-itala` képet. A kép kapja meg a `kiemelt` class-t, végül a leírás helyén egy lorem ipsum szöveget tartalmazó bekezdést helyezz el.
 
     ```html
     <h2>Nap itala</h2>
@@ -89,7 +89,7 @@ A forrás fájlokat a `forras_2_resz` mappában találod.
 
 1. Készíts commitot *"krémleves hozzáadva"* üzenettel, majd a `git push` parancs kiadásával töltsd fel a távoli repóba a helyi változásokat.
 
-1. A megrendelő új kinézetet szeretne az oldalnak. Cseréljd le a CSS fájlban az alábbi színkódokat, akár a keresés-csere funkciót alklamazva.
+1. A megrendelő új kinézetet szeretne az oldalnak. Cseréld le a CSS fájlban az alábbi színkódokat, akár a keresés-csere funkciót alkalmazva.
 
     |   Régi    |    Új     |
     |-----------|-----------|
