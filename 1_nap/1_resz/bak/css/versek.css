@@ -1,0 +1,36 @@
+body {
+    background-color: #CD9032;
+    color: #000;
+    background-image: url(../img/quill.svg);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 200px;
+    min-height: 100vh;
+
+}
+main {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 1rem;
+    width: 70%;
+    margin: 0 auto;
+}
+h1 {
+    text-align: center;
+    font-variant: small-caps;
+}
+p {
+    text-align: center;
+}
+
+.datum {
+     text-align: right;
+}
+
+a {
+    color: #CD4332;
+}
+
+a:hover {
+    color: #600;
+}
+
